@@ -215,5 +215,6 @@ public class tallerSRP2 {
                     break;
             }
         } while (opcion != 6);
+        scanner.close();
     }
 }
