@@ -14,6 +14,16 @@ class Libro {
 
             //Biblioteca
 public class TallerYAGNI9 {
+    public static void main(String[] args) {
+        TallerYAGNI9 biblioteca = new TallerYAGNI9();
+        Libro libro = new Libro();
+        libro.titulo = "El principito";
+        libro.autor = "Yo";
+        biblioteca.agregarLibro(libro);
+        System.out.println(libro.añoPublicacion);
+        
+    }
+
     private List<Libro> libros = new ArrayList<>();
 
     public void agregarLibro(Libro libro) {
@@ -21,3 +31,4 @@ public class TallerYAGNI9 {
         libros.add(libro);
     }
 }
+
