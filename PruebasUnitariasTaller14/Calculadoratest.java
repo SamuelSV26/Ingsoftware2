@@ -3,6 +3,7 @@ package PruebasUnitariasTaller14;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.RepeatedTest;
 
 public class Calculadoratest {
 
@@ -43,7 +44,7 @@ public class Calculadoratest {
     }
 
     @Test
-    @org.junit.jupiter.api.RepeatedTest(5)
+    @RepeatedTest(5)
     public void testSumarRepetido() {
         assertEquals(7, calculadora.sumar(4, 3));
     }
