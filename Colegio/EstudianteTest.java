@@ -24,7 +24,7 @@ public class EstudianteTest {
     
     @Test
     public void obtenerPromedioTest() {
-        double promedioEsperado = (5.2 + 7 + 6.9) / 3;
+        double promedioEsperado = (5.2 + 7 + 6.9) / 3; // = 6.366666666666666
         assertEquals( promedioEsperado, estudiante.obtenerPromedio(), 0.001);
     }
 
